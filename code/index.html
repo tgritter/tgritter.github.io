@@ -1,33 +1,55 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Davy Wybiral</title>
+        <title>Travis Gritter (Code)</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico">
         <link rel="stylesheet" type="text/css" href="/css/base.css">
         <link rel="stylesheet" type="text/css" href="/css/socicon/styles.css">
-        <script src="/js/index.js"></script>
+        <script src="/js/code.js"></script>
     </head>
     <body class="index">
         <header>
             <a href="/">
-                <h1>Davy</h1>
-                <h1>Wybiral</h1>
+                <h1>Travis</h1>
+                <h1>Gritter</h1>
                 <h2>software_developer</h2>
             </a>
         </header>
-        <main id="home">
-            <h1>
-                <a href="/about">About</a>
-            </h1>
-            <h1>
-                <a href="https://davywybiral.blogspot.com/">Blog</a>
-            </h1>
-            <h1>
-                <a href="/code">Code</a>
-            </h1>
+        <main>
+            <h1>Code</h1>
+            <p>These are recent projects pulled from my <a href="https://github.com/tgritter">Github account</a>.</p>
+            <p id="projects"></p>
         </main>
     </body>
 </html>
+
+const getDate = project => {
+    const created = project.created_at.slice(0, 4);
+    const pushed = project.pushed_at.slice(0, 4);
+    if (created === pushed) {
+        return created;
+    } else {
+        return created + '-' + pushed;
+    }
+};
+
+window.onload = () => {
+    let repos = document.querySelector('#projects');
+    getProjects('wybiral').then(projects => {
+        projects.forEach(project => {
+            const url = htmlEscape(project.html_url);
+            const name = htmlEscape(project.name);
+            const date = htmlEscape(getDate(project));
+            const description = htmlEscape(project.description);
+            repos.innerHTML += `
+                <li>
+                    <h2><a href="${url}">${name} (${date})</a></h2>
+                    <div>${description}</div>
+                </li>
+            `;
+        });
+    });
+};
