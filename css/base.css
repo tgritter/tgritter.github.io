@@ -33,7 +33,7 @@ header {
 }
 
 header h1 {
-    color: #f70;
+    color: #79f;
     font-size: 5em;
     line-height: 1.2em;
     font-family: 'Satisfy';
@@ -44,7 +44,7 @@ header h1 img {
 }
 
 header h2 {
-    color: #79f;
+    color: #f70;
     margin-top: 30px;
     line-height: 1.2em;
 }
