@@ -29,14 +29,14 @@ header {
     text-align: center;
     margin-top: 70px;
     margin-left: 70px;
-    position: absolute;
+    position: center;
     left: 25%;
     display: inline-block;
     width: 350px;
 }
 
 header h1 {
-    color: #f70;
+    color: #c20;
     font-size: 5em;
     line-height: 1.2em;
     font-family: 'Satisfy';
