@@ -36,12 +36,10 @@ header {
 }
 
 header h1 {
-    color: #00cc00;
+    color: #f70;
     font-size: 5em;
     line-height: 1.2em;
     font-family: 'Satisfy';
-    position: absolute;
-    left: 50%;
 }
 
 header h1 img {
