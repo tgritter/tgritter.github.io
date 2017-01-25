@@ -1,5 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Orbitron);
-@import url(//fonts.googleapis.com/css?family=Satisfy);
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url(//fonts.googleapis.com/css?family=Chango);
 
 * {
     margin: 0;
@@ -34,10 +34,10 @@ header {
 }
 
 header h1 {
-    color: #3366ff;
+    color: #003399;
     font-size: 5em;
     line-height: 1.2em;
-    font-family: 'Orbitron';
+    font-family: 'Chango';
 }
 
 header h1 img {
@@ -45,7 +45,7 @@ header h1 img {
 }
 
 header h2 {
-    color: #990000;
+    color: #ffcc00;
     margin-top: 30px;
     line-height: 1.2em;
 }
