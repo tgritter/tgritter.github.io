@@ -60,7 +60,7 @@ main {
     min-height: 280px;
     padding-left: 20px;
     margin-top: 70px;
-    margin-left: 10px;
+    margin-left: 30px;
     vertical-align: top;
     display: inline-block;
     font-size: 1.3125em;
@@ -74,7 +74,6 @@ main h1 {
     font-weight: bold;
     display: inline;
     margin-right: 10px;
-    border-top: 3px solid black;
 }
 
 main a:hover {
@@ -161,7 +160,6 @@ main li div {
 .line_break{
     width:1000px;
     height: 5px;
-    float: left;
     color: black;
     //padding-top: 3px;
     background-color: rgba(255,255,255,.5);
