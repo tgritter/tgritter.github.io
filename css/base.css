@@ -59,7 +59,7 @@ main {
     min-height: 280px;
     padding-left: 20px;
     margin-top: 70px;
-    margin-left: 20px;
+    margin-left: 70px;
     vertical-align: top;
     display: inline-block;
     font-size: 1.3125em;
@@ -72,7 +72,7 @@ main h1 {
     font-size: 150%;
     font-weight: bold;
     display: inline;
-    margin-right: 30px;
+    margin-right: 70px;
 }
 
 main a:hover {
