@@ -158,17 +158,14 @@ main li div {
 }
 
 hr {
-                border: 0;
-                clear:both;
-                display:block;
-                width: 96%;                
-                background-color:#000000;
-                height: 4px;
-            }
+    width: 96%;
+    color: #FFFF00;
+    height: 1px;
+}
 
 
-            #line {
-                float: left;
-                width: 731px;
-                height: 40px;                
-            }
+#line {
+    float: left;
+    width: 731px;
+    height: 10px;
+}
