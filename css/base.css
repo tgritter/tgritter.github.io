@@ -15,6 +15,8 @@ li {
 body {
     font: 100%/120% 'Open Sans';
     background-color: #fff;
+    width: 500px;
+    margin: 0 auto;
 }
 
 a,
