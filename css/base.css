@@ -157,15 +157,13 @@ main li div {
     opacity: 1.0;
 }
 
-hr {
-    width: 96%;
-    color: #0d0d0d;
-    height: 10px;
-}
-
-
-#line {
+.line_break{
+    width:1000px;
+    height: 5px;
     float: left;
-    width: 731px;
-    height: 10px;
+    color: black;
+    //padding-top: 3px;
+    background-color: rgba(255,255,255,.5);
+    border: none;
+    border-bottom: 3px solid black;
 }
