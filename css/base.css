@@ -56,11 +56,11 @@ header h2 {
 
 main {
     color: #666;
-    width: 666px;
+    width: 500px;
     min-height: 280px;
     padding-left: 20px;
     margin-top: 70px;
-    margin-left: 70px;
+    margin-left: 20px;
     vertical-align: top;
     display: inline-block;
     font-size: 1.3125em;

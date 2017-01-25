@@ -29,30 +29,4 @@
     </body>
 </html>
 
-const getDate = project => {
-    const created = project.created_at.slice(0, 4);
-    const pushed = project.pushed_at.slice(0, 4);
-    if (created === pushed) {
-        return created;
-    } else {
-        return created + '-' + pushed;
-    }
-};
 
-window.onload = () => {
-    let repos = document.querySelector('#projects');
-    getProjects('tgritter').then(projects => {
-        projects.forEach(project => {
-            const url = htmlEscape(project.html_url);
-            const name = htmlEscape(project.name);
-            const date = htmlEscape(getDate(project));
-            const description = htmlEscape(project.description);
-            repos.innerHTML += `
-                <li>
-                    <h2><a href="${url}">${name} (${date})</a></h2>
-                    <div>${description}</div>
-                </li>
-            `;
-        });
-    });
-};
