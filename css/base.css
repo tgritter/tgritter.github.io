@@ -30,13 +30,16 @@ header {
     margin-top: 70px;
     margin-left: 70px;
     position: center;
-    left: 25%;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
     display: inline-block;
     width: 350px;
 }
 
 header h1 {
-    color: #c20;
+    color: #d20;
     font-size: 5em;
     line-height: 1.2em;
     font-family: 'Satisfy';
