@@ -60,7 +60,7 @@ main {
     min-height: 280px;
     padding-left: 20px;
     margin-top: 70px;
-    margin-left: 30px;
+    margin-left: 50px;
     vertical-align: top;
     display: inline-block;
     font-size: 1.3125em;
@@ -73,7 +73,7 @@ main h1 {
     font-size: 150%;
     font-weight: bold;
     display: inline;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 main a:hover {
@@ -112,7 +112,6 @@ main li div {
         width: 70%;
         float: none;
         border-left: none;
-        border-top: solid 4px #000;
         display: block;
         text-align: left;
     }
@@ -162,7 +161,7 @@ main li div {
     height: 5px;
     float: center;
     color: black;
-    //padding-top: 3px;
+    padding-top: 3px;
     background-color: rgba(255,255,255,.5);
     border: none;
     border-bottom: 3px solid black;
