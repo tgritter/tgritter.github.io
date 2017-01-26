@@ -66,6 +66,7 @@ main {
     display: inline-block;
     font-size: 1.3125em;
     line-height: 1.52381em;
+    text-align: center;
 }
 
 main h1 {
