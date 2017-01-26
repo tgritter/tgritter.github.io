@@ -73,7 +73,7 @@ main h1 {
     margin: 1em 0;
     font-size: 150%;
     font-weight: bold;
-    display: inline;
+    display: inline-block;
     margin-right: 55px;
 }
 
@@ -168,51 +168,3 @@ main li div {
     border-bottom: 3px solid black;
 }
 
-#Facebook{
-      height:26px;
-      width:26px;
-    display:inline-block;
-}
-#Twitter{
-      height:26px;
-      width:26px;
-    display:inline-block;
-}
-#LinkedIn{
-      height:26px;
-      width:26px;
-    display:inline-block;
-}
-
-#Facebook a{
-      background-image: url('http://paksef.com/wp-content/uploads/2015/08/facebook-icon-hover.png');
-
-}
-
-#Facebook a:hover{
-      background-image: url('http://paksef.com/wp-content/uploads/2015/08/facebook-icon.png');
-}
-
-#Twitter{
-      background-image: url('http://paksef.com/wp-content/uploads/2015/08/twitter-icon-hover.png');
-
-}
-
-#Twitter a:hover{
-      background-image: url('http://paksef.com/wp-content/uploads/2015/08/twitter-icon.png');
-
-}
-
-#LinkedIn{
-      background-image: url('http://paksef.com/wp-content/uploads/2015/08/Linkedin-icon-hover.png');
-
-}
-#LinkedIn a:hover{
-      background-image: url('http://paksef.com/wp-content/uploads/2015/08/Linkedin-icon.png');
-
-}
-a{
-    display:inline-block;
-    height:100%;
-    width:100%;
-}
