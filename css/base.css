@@ -36,7 +36,7 @@ header {
 }
 
 header h1 {
-    color: #ffcc00;
+    color: #003399;
     font-size: 5em;
     line-height: 1.2em;
     font-family: 'Chango';
@@ -66,7 +66,6 @@ main {
     display: inline-block;
     font-size: 1.3125em;
     line-height: 1.52381em;
-    text-align: center;
 }
 
 main h1 {
@@ -75,8 +74,7 @@ main h1 {
     font-size: 150%;
     font-weight: bold;
     display: inline;
-    margin-right: 50px;
-    text-align: center;
+    margin-right: 150px;
 }
 
 main a:hover {
