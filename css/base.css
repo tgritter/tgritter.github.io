@@ -1,5 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
-@import url(//fonts.googleapis.com/css?family=Bilbo);
+@import url(//fonts.googleapis.com/css?family=Devonshire);
 
 * {
     margin: 0;
@@ -39,7 +39,7 @@ header h1 {
     color: #3366ff;
     font-size: 5em;
     line-height: 1.2em;
-    font-family: 'Bilbo';
+    font-family: 'Devonshire';
 }
 
 header h1 img {
